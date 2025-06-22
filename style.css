@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+html,body {
+   overflow-y: hidden;
+   
+   background-repeat: no-repeat;
+   background-color: whitesmoke;
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:white;
+    padding:1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+}
+header .logo{
+    font-size: 3rem;
+    color:	#D2042D;
+    font-weight:bolder ;
+    font-family: "Italianno", cursive;
+    
+}
+header .logo:hover{
+    color:black;
+}
+
+ header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:red;
+
+ }
+ header .navbar a:hover{
+    color:black;
+ }
+ header .icons a{
+    font-size: 35px;
+    color:red;
+    margin-left: 1.5rem;
+    
+ }
+ header .icons a:hover{
+    color:black;
+ }
+ section{
+    padding:2rem;
+ }
+ .home{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+  h1{
+    font-family: "Great Vibes", cursive;
+    font-size:50px;
+    margin-left: 600px;
+    margin-bottom: 150px;
+    white-space: nowrap;
+    margin-top: 80px;
+    font-weight: bolder;
+    color:red;
+     text-shadow: 
+        0 0 5px #fff,
+        0 0 10px red,
+        0 0 20px red;
+        animation: bounce 1s infinite, pulseGlow 2s infinite; 
+        
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+
+ }
+ .home .content{
+   max-width: 60rem;
+   width:100%;
+   padding:2rem 5%;
+
+}
+  .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  background: url('https://images.pexels.com/photos/4388473/pexels-photo-4388473.jpeg') no-repeat center center;
+  background-size: cover;
+  background-attachment: center;
+   
+  width:100%;
+  padding:50px;
+
+ }
+.content{
+  
+  margin-top: 30px;
+  
+  max-width:90%;
+  margin:0 auto;
+}
+
+p, .content>span {
+   padding-left: 600px;
+   
+}
+h1 {
+  margin-bottom: 5rem;
+  font-size:60px;
+
+  margin-bottom: 20px;
+}
+
+
+p{
+  margin-bottom: 4rem;
+  display: block;
+  font-family: 'Great Vibes', cursive;
+ 
+  
+}
+.one{
+  
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    color:green;
+    font-weight:bold;
+
+    margin-bottom: 20px;
+}
+.para{
+   font-size:30px;
+   line-height:1.2rem;
+   text-align: justify;
+   width:100%;
+}
+.btn{
+   display:inline-block;
+   margin-top: 1rem;
+   border-radius:5rem;
+   background:red;
+   color:#fff;
+   padding:.9rem 3.5rem;
+   font-size:1.5rem;
+   cursor: pointer;
+   position:absolute;
+   right:22%;
+   bottom:2%;
+}
+.btn:hover{
+  background-color:black;
+}
+.btn-cointainer{
+   text-align: left;
+   margin-left:2rem;
+   align-self:flex-start;
+}
+.heading{
+   color:black;
+   margin-bottom: 0px;
+}
+.about{
+   background-color: whitesmoke
+}
+video{
+   
+   height:50%;
+   width:70%;
+   margin-left:2px;
+   float:left;
+   margin-right: 30px;
+   
+}
+.new{
+   
+   color:black;
+   margin-left: 50px;
+   font-size: 45px;
+}
+.qot{
+   color:purple;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.products{
+   background-repeat: no-repeat;
+   margin-bottom: 20%;
+   background-color: #FFFAFA;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;     
+    gap: 30px;              
+    flex-wrap: wrap;         
+    justify-content: center; 
+    margin-bottom:160px;
+    
+}
+
+.box {
+    
+    flex: 0 0 auto;
+}
+.products{
+   padding-top:70px;
+}
+
+.price{
+   color:purple;
+   font-size: 20px;;
+}
+h3{
+   font-size:20px;
+}
+.buy-now-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.8rem;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+   
+}
+
+.buy-now-btn:hover {
+    background-color: black;
+}
+
+.review {
+    padding-top: 0;
+    margin-top: 0;
+}
+.review .heading {
+    padding-bottom: 100px;
+    margin-top: 0;
+}
+.review{
+   margin-top: -200px;
+}
+.user{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap:80px;
+}
+img{
+   border-radius: 20px;
+   border:7px solid black;
+}
+
+.heading{
+   margin-left:430px;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px purple,
+        0 0 20px purple;
+        animation: bounce 1s infinite, pulseGlow 2s infinite; 
+        
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); 
+}
+}
+.stars{
+   color:goldenrod;
+}
+
+
+.heading {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInFade 1s ease-out forwards;
+}
+
+@keyframes slideInFade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
